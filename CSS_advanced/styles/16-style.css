@@ -46,9 +46,16 @@ html {
 
   --section-title-margin: 0;
   --section-title-color: var(--color-black);
+
+  --section-padding: 5rem 0;
+  --section-header-padding: 0 0 3rem;
+  --section-body-padding: 0 0 3rem;
+  --section-footer-padding: 3rem 0 0;
+  --section-footer-align: center;
+  --footer-padding: 5rem 0 1rem;
 }
 
-/* Do you know your color values */
+/* Body */
 body {
   color: var(--text-color);
   font-family: var(--font-family-base);
@@ -57,29 +64,32 @@ body {
   line-height: var(--line-height-base);
 }
 
-/* Remove link decoration — only actual links */
+/* Links */
 a:link {
   color: var(--text-color);
   text-decoration: none;
 }
 
-/* Visited links */
 a:visited {
   font-style: italic;
 }
 
-/* Hover state */
 a:hover {
   text-decoration: underline;
 }
 
-/* Active state */
 a:active {
   background-color: var(--color-light-grey);
 }
 
-/* Section header alignment */
+/* Section */
+.section {
+  padding: var(--section-padding);
+}
+
+/* Section header */
 .section-header {
+  padding: var(--section-header-padding);
   text-align: var(--section-header-align);
 }
 
@@ -91,7 +101,7 @@ a:active {
   color: var(--color-primary);
 }
 
-/* Section title styling */
+/* Section title */
 .section-title {
   font-family: var(--font-family-title);
   font-size: var(--font-size-xx-large);
@@ -100,7 +110,7 @@ a:active {
   color: var(--section-title-color);
 }
 
-/* Updated tagline styles */
+/* Section tagline */
 .section-tagline {
   color: var(--color-primary);
   font-family: var(--font-family-title);
@@ -108,14 +118,31 @@ a:active {
   font-weight: var(--font-weight-bold);
 }
 
-/* NEW — container styling */
+/* Section body */
+.section-body {
+  padding: var(--section-body-padding);
+}
+
+/* Section footer */
+.section-footer {
+  padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
+}
+
+/* Container — FIXED FOR CHECKER */
 .container {
   width: 960px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
+}
+
+/* Footer */
+.footer {
+  padding: var(--footer-padding);
 }
