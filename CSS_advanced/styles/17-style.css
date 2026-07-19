@@ -56,7 +56,7 @@ html {
   --footer-padding: 5rem 0 1rem;
 }
 
-/* Do you know your color values */
+/* Body */
 body {
   color: var(--text-color);
   font-family: var(--font-family-base);
@@ -65,7 +65,7 @@ body {
   line-height: var(--line-height-base);
 }
 
-/* Remove link decoration — only actual links */
+/* Links */
 a:link {
   color: var(--text-color);
   text-decoration: none;
@@ -83,12 +83,12 @@ a:active {
   background-color: var(--color-light-grey);
 }
 
-/* NEW — section padding */
+/* Section padding */
 .section {
   padding: var(--section-padding);
 }
 
-/* Section header alignment + padding */
+/* Section header */
 .section-header {
   padding: var(--section-header-padding);
   text-align: var(--section-header-align);
@@ -102,7 +102,7 @@ a:active {
   color: var(--color-primary);
 }
 
-/* Section title styling */
+/* Section title */
 .section-title {
   font-family: var(--font-family-title);
   font-size: var(--font-size-xx-large);
@@ -111,7 +111,7 @@ a:active {
   color: var(--section-title-color);
 }
 
-/* Updated tagline styles */
+/* Section tagline */
 .section-tagline {
   color: var(--color-primary);
   font-family: var(--font-family-title);
@@ -119,12 +119,12 @@ a:active {
   font-weight: var(--font-weight-bold);
 }
 
-/* NEW — section-body padding */
+/* Section body */
 .section-body {
   padding: var(--section-body-padding);
 }
 
-/* NEW — section-footer padding + alignment */
+/* Section footer */
 .section-footer {
   padding: var(--section-footer-padding);
   text-align: var(--section-footer-align);
@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight-bold);
 }
 
-/* NEW — footer padding */
+/* Footer */
 .footer {
   padding: var(--footer-padding);
 }
