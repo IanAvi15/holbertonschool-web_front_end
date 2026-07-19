@@ -91,7 +91,7 @@ a:active {
   background-color: var(--color-light-grey);
 }
 
-/* Section */
+/* Section padding */
 .section {
   padding: var(--section-padding);
 }
